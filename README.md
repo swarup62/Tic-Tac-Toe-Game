@@ -39,5 +39,3 @@ Key components of the game:
 - **Reset**: Click the "Reset" button to start a new game after a win or tie.
 
 ---
-
-You can now upload this updated `README.md` to your GitHub repository! Let me know if you need any further changes.
