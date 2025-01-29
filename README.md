@@ -12,7 +12,7 @@ A simple and fun Tic Tac Toe game for Android where you can play against a Bot o
 
 ## Screenshots
 
-![Screenshot](https://github.com/swarup62/Tic-Tac-Toe-Game/blob/46358579fa8527f2dc21e64cced67834f05a7371/s1.jpg)
+![Screenshot](https://github.com/swarup62/Tic-Tac-Toe-Game/blob/9f59d553752befd8a647c3307cecbc8412eaa7fe/all_ss.png)
 
 
 ## Coding Information
