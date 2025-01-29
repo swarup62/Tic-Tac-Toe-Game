@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkgray">#242629</color>
+    <color name="bg">#27033d</color>
+    <color name="btnc_midblue">#016ed0</color>
+    <color name="btnc_midblue_selectlight">#45a2f5</color>
+    <color name="btnc_midyellow">#fcbd27</color>
+    <color name="btnc_midred">#ff1e1e</color>
+    <color name="golden">#FFAD00</color>
+    <color name="viot">#5a1e76</color>
+</resources>

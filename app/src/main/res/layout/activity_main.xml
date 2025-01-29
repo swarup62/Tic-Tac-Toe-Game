@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription,HardcodedText"/>
+
+        <RelativeLayout
+            android:id="@+id/splash_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/btn_bg_blue_ripple"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/splash_btn_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/raleway_bold"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/splash_btn_animation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/splash_screen_loading_animation" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_regular"
+                android:text="Develop By:"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_bold"
+                android:textSize="10pt"
+                android:text="Swarup Paul"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

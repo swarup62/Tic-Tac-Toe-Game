@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="logo_width">80dp</dimen>
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="icon_width">60dp</dimen>
+    <dimen name="icon_height">60dp</dimen>
+</resources>

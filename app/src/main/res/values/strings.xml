@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="title_activity_nav_draw">NavDraw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="about_us">Introducing DevByHeart, where passion meets technology! Founded by two MCA students, Swarup Paul and Purnendu Guha, our mission is to bring innovative software solutions to life. At DevByHeart, we specialize in developing a wide range of software projects, including mobile apps, websites, and custom software solutions. With a deep love for coding and problem-solving, we strive to deliver high-quality, user-friendly, and efficient digital experiences. Whether you\'re looking for a dynamic website, a powerful mobile application, or a tailored software solution, we are here to turn your ideas into reality. Join us on this exciting journey as we build technology with heart and dedication!</string>
+    <string name="about_tictactoe">Swarup Paul has developed a classic Tic-Tac-Toe game using XML and Java, providing both single-player and multiplayer gameplay options. In single-player mode, the player competes against a predefined bot that follows fixed strategies to make its moves, offering a challenging yet predictable experience. The multiplayer mode allows two players to take turns on the same device, making it a fun game to play with friends. The game features a clean and user-friendly interface, ensuring smooth navigation and enjoyable gameplay. One of the key highlights of this Tic-Tac-Toe game is the instant score update system, which keeps track of the player\'s performance in real-time. Additionally, at the end of each match, a popup notification appears immediately to announce the result, whether the player wins or loses. With its simple yet engaging mechanics, this game provides a great way to pass the time while enjoying a competitive and interactive experience.</string>
+
+</resources>
